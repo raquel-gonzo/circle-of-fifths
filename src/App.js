@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Image cloudName="raquel-gonzo" publicId="violin%20lessons/Circle-of-Fifths-Keys_sneblg.png" ></Image>
     </div>
   );
 }
