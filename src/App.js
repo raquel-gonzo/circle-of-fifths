@@ -1,12 +1,22 @@
-import './App.css';
-import Circle from './components/Circle'
-import FlatIO from './components/FlatIO';
+import "./App.css";
+import Circle from "./components/Circle";
+import FlatIO from "./components/FlatIO";
 
 function App() {
+
+  
+
   return (
     <div className="App">
-      < Circle />
-      < FlatIO />
+      <div id="container">
+        <div id="circle-container">
+          <Circle />
+        </div>
+
+        <div id="flatio-container">
+          <FlatIO />
+        </div>
+      </div>
     </div>
   );
 }
