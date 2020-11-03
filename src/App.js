@@ -1,10 +1,12 @@
 import './App.css';
-import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
+import Circle from './components/Circle'
+import FlatIO from './components/FlatIO';
 
 function App() {
   return (
     <div className="App">
-      <Image cloudName="raquel-gonzo" publicId="violin%20lessons/Circle-of-Fifths-Keys_sneblg.png" ></Image>
+      < Circle />
+      < FlatIO />
     </div>
   );
 }
