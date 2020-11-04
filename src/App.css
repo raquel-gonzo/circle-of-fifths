@@ -4,13 +4,16 @@
 
 body{
   background-color: cornflowerblue;
-  /* height: 100vh; */
 }
 
 #container{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+img[usemap], map area{
+  outline: none;
 }
 
 #circle-container{

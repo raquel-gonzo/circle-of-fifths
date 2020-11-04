@@ -1,23 +1,7 @@
 import React from "react";
 import Image from "../Image.png";
 
-const Circle = ({scales}) => {
-  const renderMusic = (e, scale) => {
-    e.preventDefault();
-    console.log(scale.src)
-    // return (
-    //   <div id="flat-io">
-    //     <iframe
-    //       src={scales.src}
-    //       height="600"
-    //       width="100%"
-    //       frameBorder="0"
-    //       allowfullscreen
-    //       allow="midi"
-    //     ></iframe>
-    //   </div>
-    // );
-  };
+const Circle = ({scales, renderMusic}) => {
 
   return (
     <div>
