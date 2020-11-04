@@ -1,20 +1,20 @@
 import "./App.css";
+import React, { useState } from 'react'; 
+import scales from './scales.json';
 import Circle from "./components/Circle";
-import FlatIO from "./components/FlatIO";
+// import FlatIO from "./components/FlatIO";
 
 function App() {
-
   
-
   return (
     <div className="App">
       <div id="container">
         <div id="circle-container">
-          <Circle />
+          <Circle scales={scales} />
         </div>
 
         <div id="flatio-container">
-          <FlatIO />
+          {/* <FlatIO music={scales}/> */}
         </div>
       </div>
     </div>
