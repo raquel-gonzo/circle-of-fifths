@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Fira Code', monospace;
 }
 
 body{
@@ -48,10 +51,10 @@ area {
 
 #github-img{
   width: 30px;
-  padding-top: 20px;
 }
 
 #footer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }

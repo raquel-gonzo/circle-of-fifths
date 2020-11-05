@@ -37,7 +37,7 @@ function App() {
                 left corner of the page.
               </li>
               <li>
-                Print this sheet music by pressing the ... in the lower right
+                Print this sheet music by pressing the '...' in the lower right
                 corner of the page.
               </li>
             </ul>
@@ -56,14 +56,14 @@ function App() {
       <div id="footer">
         <p>
           View this project on GitHub
-          <a href="https://github.com/raquel-gonzo/circle-of-fifths">
+        </p>
+        <a href="https://github.com/raquel-gonzo/circle-of-fifths">
             <img
               id="github-img"
               alt="GitHub"
               src="https://res.cloudinary.com/raquel-gonzo/image/upload/c_scale,w_250/v1604183366/GitHub_SVG.svg"
             />
           </a>
-        </p>
       </div>
     </div>
   );

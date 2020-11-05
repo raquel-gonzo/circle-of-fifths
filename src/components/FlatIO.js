@@ -10,7 +10,7 @@ const FlatIO = ({ scaleSrc, title, embedId }) => {
         <iframe
           src={src}
           title={title}
-          height="500"
+          height="550"
           width="95%"
           frameBorder="0"
           allowFullScreen
