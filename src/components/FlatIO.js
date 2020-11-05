@@ -1,11 +1,25 @@
 import React from "react";
 
-const FlatIO = (scales) => {
-  
-  return(
-    <div>
-      {/* <iframe src={`https://flat.io/embed/5fa0866ffdc8885b55a586b3?layout=page&appId=${process.env.REACT_APP_FLATIO}`} height="600" width="95%" frameBorder="0" allowfullscreen allow="midi"></iframe> */}
-    </div>
+const FlatIO = ({ scaleSrc, title, embedId }) => {
+  const baseURL = "https://flat.io/embed/";
+  const queryString = "?layout=page&appId=" + process.env.REACT_APP_FLATIO;
+  const src = baseURL + embedId + queryString;
+  return (
+    <>
+      {scaleSrc !== "" ? (
+        <iframe
+          src={src}
+          title={title}
+          height="500"
+          width="95%"
+          frameBorder="0"
+          allowFullScreen
+          allow="midi"
+        ></iframe>
+      ) : (
+        <div id="placeholder"></div>
+      )}
+    </>
   );
 };
 

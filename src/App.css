@@ -3,21 +3,55 @@
 }
 
 body{
-  background-color: cornflowerblue;
+  background-color:#F8E5CB;
+}
+
+#get-started{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid black;
+  height: fit-content;
+  padding-right: 10px;
+  margin-top: 25%;
+}
+
+ul{
+  display: inline-block;
+  text-align: left;
 }
 
 #container{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 2%;
 }
 
 img[usemap], map area{
   outline: none;
 }
 
+area {
+  cursor: pointer;
+}
+
 #circle-container{
   display: flex;
-  justify-content: center;
   height: fit-content;
+}
+
+#placeholder{
+  height: 600px;
+}
+
+#github-img{
+  width: 30px;
+  padding-top: 20px;
+}
+
+#footer{
+  display: flex;
+  justify-content: center;
 }

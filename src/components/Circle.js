@@ -15,7 +15,6 @@ const Circle = ({scales, renderMusic}) => {
               onClick={(e) => renderMusic(e, scale)}
               alt={scale.alt}
               title={scale.title}
-              href={scale.href}
               coords={scale.coords}
               shape={scale.shape}
             ></area>
