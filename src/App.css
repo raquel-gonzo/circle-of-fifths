@@ -17,12 +17,16 @@ body{
   border: 2px solid black;
   height: fit-content;
   padding-right: 10px;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 ul{
   display: inline-block;
   text-align: left;
+}
+
+li{
+  margin-top: 15px;
 }
 
 #container{

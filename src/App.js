@@ -28,8 +28,7 @@ function App() {
                 Click on a{" "}
                 <a href="https://www.musictheory.net/lessons/24#:~:text=A%20key%20signature%20is%20a,the%20beginning%20of%20the%20measure.">
                   Key Signature
-                </a>{" "}
-                to get started.
+                </a>.
               </li>
               <li>Scales and exercises will show down below.</li>
               <li>
@@ -39,6 +38,9 @@ function App() {
               <li>
                 Print this sheet music by pressing the '...' in the lower right
                 corner of the page.
+              </li>
+              <li>
+                Note: This is currently for treble clef only 🎼
               </li>
             </ul>
           </div>
