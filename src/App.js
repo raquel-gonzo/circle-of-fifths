@@ -57,7 +57,7 @@ function App() {
       </div>
       <div id="footer">
         <p>
-          View this project on GitHub
+          View this project on <a href="https://github.com/raquel-gonzo/circle-of-fifths">GitHub</a>
         </p>
         <a href="https://github.com/raquel-gonzo/circle-of-fifths">
             <img
