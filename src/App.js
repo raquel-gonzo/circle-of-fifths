@@ -20,7 +20,6 @@ function App() {
     <div className="App">
       <div id="container">
         <div id="circle-container">
-          <Circle scales={scales} renderMusic={renderMusic} />
           <div id="get-started">
             <h3>Get Started:</h3>
             <ul>
@@ -44,6 +43,7 @@ function App() {
               </li>
             </ul>
           </div>
+          <Circle scales={scales} renderMusic={renderMusic} />
         </div>
 
         <div id="flatio-container">

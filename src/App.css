@@ -38,6 +38,7 @@ li{
 
 img[usemap], map area{
   outline: none;
+  
 }
 
 area {
@@ -61,4 +62,32 @@ area {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+@media screen and (max-width: 780px) {
+  #circle-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #get-started{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid black;
+  height: fit-content;
+  margin-top: 20%;
+  }
+
+  img[usemap], map area{
+    outline: none;
+  }
+
+
 }
